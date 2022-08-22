@@ -1,0 +1,30 @@
+h1 {
+    font-family: Impact, sans-serif;
+    color: #CE5937;
+    }
+    body {
+      background-color: #f0f0f3;
+      width: 100vw;
+      height: 100vw;
+    }	  
+    
+    .neumorphism-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 200px;
+      height: 200px;
+      text-align: center;
+      
+      border-radius: 50px;
+      background-color: #f0f0f3;
+      box-shadow: 10px 10px 21px #d3d3d6,
+        -10px -10px 21px #fff;
+    }
+    
+    .center {
+      text-align: center;
+      position: absolute;
+      
+    }
